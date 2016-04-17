@@ -1,0 +1,90 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.center-text {
+    text-align: center;
+}
+.justify-text {
+    text-align: justify;
+}
+.example-img {
+    width: 100%;
+    height: auto;
+}
+.bootstrap-filestyle {
+    margin: 0 auto;
+}
+#content {
+    position: absolute;
+    left: 50%;
+
+    width: 100%;
+    max-width: 800px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    transform: translateX(-50%);
+}
+#content img {
+    display: block;
+
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;;
+}
+h1 {
+    text-align: center;
+}
+#view-2 {
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0 0;
+    background-size: cover;
+}
+#h-line,
+#v-line {
+    position: fixed;
+
+    opacity: .5;
+    background-color: white;
+}
+#h-line {
+    top: -4px;
+
+    width: 100%;
+    height: 4px;
+}
+#v-line {
+    left: -4px;
+
+    width: 4px;
+    height: 100%;
+}
+#css-code-btn {
+    position: fixed;
+    left: -100px;
+
+    opacity: .75;
+    color: black;
+    border: 0;
+    background: white;
+}
+#css-code {
+    position: fixed;
+
+    display: none;
+}

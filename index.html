@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>CSS Focal Finder</title>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-filestyle/1.2.1/bootstrap-filestyle.min.js"></script>
+
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="view-1">
+      <div id="content">
+        <h1>CSS Focal Finder</h1>
+        <p>When you're using <code>background-size: cover</code>, this tool helps you find the <code>background-position</code> percents that will make your image look awesome on every device.</p>
+        <p class="bold">To begin, simply choose an image. Once chosen, click a point on the image and resize your browser! Play around with the point until it scales/crops nicely.</p>
+        <input type="file" id="img-input" class="filestyle" data-buttonText="Choose Image" data-input="false" data-iconName="glyphicon glyphicon-cloud-upload" data-size="lg" data-badge="false">
+        <hr />
+        <div id="links" class="center-text">
+          <div class="italic">The selected image isn't ever uploaded to our server. It is manipulated locally.</div>
+          <a href="https://github.com/DeBortoliWines/css-focal-finder">Github Repository</a>
+        </div>
+      </div>
+    </div>
+    <div id="view-2" class="hidden">
+      <button id="css-code-btn" class="p-text"></button>
+      <div id="css-code">
+        <code>background-image: url("your-image.jpg");</code><br />
+        <code>background-repeat: no-repeat;</code><br />
+        <code>background-position: <span class="p-text"></span>;</code><br />
+        <code>background-attachment: fixed;</code><br />
+        <code>background-size: cover;</code>
+      </div>
+      <div id="h-line"></div>
+      <div id="v-line"></div>
+    </div>
+  </body>
+</html>
