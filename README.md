@@ -57,7 +57,7 @@ The affect of `background-position: 60% 60%` on a desktop aspect ratio:
 
 <img src="https://css-focal-finder.appspot.com/img/desktop-crosshair.png" height="300">
 
-The affect of background-position: `60% 60%` on a mobile aspect ratio:
+The affect of `background-position: 60% 60%` on a mobile aspect ratio:
 
 <img src="https://css-focal-finder.appspot.com/img/iphone-crosshair.png" height="300">
 
