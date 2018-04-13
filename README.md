@@ -2,8 +2,6 @@ CSS Focal Finder
 ===
 When you're using `background-size: cover`, this tool helps you find the background-position percents that will make your image look awesome on every device.
 
-[Demo](https://debortoliwines.github.io/css-focal-finder/)
-
 How To Use
 ===
 Simply click "Choose Image", select an image. Click a point on the image and resize your browser! Play around with the point until it scales/crops nicely. Record the percents that scale/crop that play the best with your focal point.
