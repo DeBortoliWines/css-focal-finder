@@ -1,6 +1,8 @@
-[CSS Focal Finder](http://css-focal-finder.appspot.com/)
+CSS Focal Finder
 ===
 When you're using `background-size: cover`, this tool helps you find the background-position percents that will make your image look awesome on every device.
+
+[Demo](https://debortoliwines.github.io/css-focal-finder/)
 
 How To Use
 ===
